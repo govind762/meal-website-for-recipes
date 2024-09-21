@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo li a{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo li a samp{
+    color: yellow;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background-color:#000;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+ }
+ nav{
+    margin: 0;
+    padding: 0;
+ }
+ nav{
+    padding: 0.0001rem;
+ }
+ nav ul{ 
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+   
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #fff;
+    display: block;
+    padding: 0.4rem  1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: hsl(0, 100%, 65%);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+  .dropdown:hover .dropdown-content p:hover{
+    color: aqua;
+  }
+ 
+ .gef{
+    position: relative;
+    
+ }
+img{
+    width: 75%;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+.text-container{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(41, 41, 41, 0.8);
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+   
+}
+.text-container a{
+    text-decoration: none;
+    color: #000;
+    background-color: hsl(60, 100%, 45%);
+    font-size: 20px;
+    margin-right: 450px;
+    border-radius: 6PX;
+    padding: 15px 25px;
+}
+.text-container a:hover{
+     background-color: hsl(0, 0%, 80%);
+}
+.food{
+    display:  flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 25px; 
+
+}
+.row img{
+ width: 400px;
+ height: 350px;
+ object-fit: cover;
+ border-radius: 5px;
+ margin: auto;
+}
+#f{
+    color: gray;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+#p{
+    color: gray;
+    font-size: 3rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+.explore{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+}
+.log img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 125px;
+  margin: auto;  
+}
+#e{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+#e:hover{
+    color: purple;
+}
+#g{
+    color: gray;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.trending{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+}
+.trending-more img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: auto;
+}
+#l{
+    font-weight: 300;
+    cursor: pointer;
+}
+#l:hover{
+    color: palevioletred;
+}
+.bodydesc{
+    margin-left:auto;
+    margin-right:auto; 
+    width:200px; 
+    height: 250px; 
+    overflow-y: scroll;
+}
+.desc{
+    float:left;
+    color: #666666;
+    width:100px; 
+    font-family: Candara,Trebuchet MS,sans-serif; 
+    font-size: 12px;
+    font-weight: bold; 
+    border-right: thin dotted #666666;
+    line-height: 18px;
+}
+.recipe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.first-info img{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+
+}
+ .second-info p{
+    text-align: center;
+ }
+ .second-info h2{
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 25px;
+ }
+#n{
+    margin-top: 75px;
+}
+footer{
+    background-color:#000
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.socal i{
+    font-size:30px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+.socal i:hover{
+    transform: scale(1.5);
+}
+.about-us{
+    color: #fff;
+    margin-top: 10px;
+}
+.about-us p samp{
+    color: #666666;
+    font-size: small;
+    
+}
